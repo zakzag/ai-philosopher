@@ -1,0 +1,21 @@
+{
+  "name": "philosopher",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "npm@10.0.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "clean": "rimraf .turbo && rimraf node_modules/.cache",
+    "clean:all": "rimraf .turbo && rimraf node_modules && npm install",
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint"
+  },
+  "devDependencies": {
+    "rimraf": "^5.0.5",
+    "turbo": "^2.8.1"
+  }
+}

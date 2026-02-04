@@ -1,0 +1,171 @@
+.debate-list {
+  margin-top: 48px;
+}
+
+.debate-list h3 {
+  margin: 0 0 16px;
+  color: #333;
+}
+
+.debate-list-empty {
+  text-align: center;
+  padding: 32px;
+  color: #888;
+  background: #f9f9f9;
+  border-radius: 12px;
+}
+
+.debate-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.debate-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.debate-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.debate-badges {
+  display: flex;
+  gap: 8px;
+}
+
+.badge {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.badge-running {
+  background: #e3f2fd;
+  color: #1976d2;
+}
+
+.badge-paused {
+  background: #fff3e0;
+  color: #f57c00;
+}
+
+.badge-completed {
+  background: #e8f5e9;
+  color: #388e3c;
+}
+
+.badge-pending {
+  background: #f5f5f5;
+  color: #666;
+}
+
+.badge-agreement {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.badge-timeout {
+  background: #fff8e1;
+  color: #f9a825;
+}
+
+.badge-manual {
+  background: #ffebee;
+  color: #c62828;
+}
+
+.debate-date {
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.debate-standpoints {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.standpoint {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.standpoint-0 {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+}
+
+.standpoint-1 {
+  background: linear-gradient(135deg, rgba(240, 147, 251, 0.1) 0%, rgba(245, 87, 108, 0.1) 100%);
+}
+
+.standpoint-label {
+  display: block;
+  font-weight: 600;
+  font-size: 0.75rem;
+  margin-bottom: 4px;
+  opacity: 0.7;
+}
+
+.vs {
+  font-weight: bold;
+  color: #888;
+  font-size: 0.8rem;
+}
+
+.debate-card-actions {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.debate-card-actions .btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform 0.2s;
+}
+
+.debate-card-actions .btn:hover {
+  transform: translateY(-1px);
+}
+
+.btn-replay {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.btn-view {
+  background: #6dd5ed;
+  color: white;
+}
+
+.btn-continue {
+  background: linear-gradient(135deg, #6dd5ed 0%, #2193b0 100%);
+  color: white;
+}
+
+.btn-delete {
+  background: #f5f5f5;
+  color: #666;
+}
+
+.btn-delete:hover {
+  background: #ffebee;
+  color: #c62828;
+}
